@@ -6,6 +6,14 @@ export default function Messages() {
         <Message />
         <Message />
         <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
       </div>
     );
 }
