@@ -1,9 +1,13 @@
+import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
+import { AuthContextProvider } from './context/AuthContext';
 import reportWebVitals from './reportWebVitals';
 
 createRoot(document.getElementById('root')).render(
-  <App />,
+  <AuthContextProvider>
+    <App />
+  </AuthContextProvider>,
 );
 
 reportWebVitals();

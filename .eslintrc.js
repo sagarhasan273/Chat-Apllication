@@ -18,6 +18,7 @@ module.exports = {
   },
   rules: {
     indent: 0,
+    'no-unused-vars': 1,
     'react/react-in-jsx-scope': 0,
     'react/jsx-one-expression-per-line': 0,
     'react-hooks/rules-of-hooks': 'error',
